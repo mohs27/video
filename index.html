@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa" id="xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Rapidcode.iR - سورس کد</title>
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <a id="introduce" href="https://rapidcode.ir" target="_blank">رپید کد • کتابخانه مجازی برنامه نویسان</a>
+        <div class="video-wrapper">
+            <div id="preview-thumbnail">
+                <img src="static/video/thumbnails/Lamborghini Urus (1).png">
+            </div>
+            <ul id="video-playlist">
+                <li data-src="static/video/Lamborghini Urus.mp4">لامبورگینی اوروس</li>
+                <li data-src="static/video/FORD Mustang GT.mp4">فورد موستانگ نیو</li>
+            </ul>
+            <div class="video-player-wrapper">
+            <video id="my-custom-video-play" src="static/video/Lamborghini Urus.mp4"></video>
+            <div class="video-controls">
+                <span class="icon-player play-pause"></span>
+                <div data-preview="true" id="timer" class="seekbar timer">
+                    <div data-preview="true" id="loaded"></div>
+                    <div data-preview="true" id="progress"><div data-preview="true" id="handler"></div></div>
+                    <span id="remain">-00:00</span>
+                </div>
+                <span class="icon-player sound-mute"></span>
+                <div class="seekbar sound">
+                    <div id="loaded"></div>
+                    <div id="progress"><div id="handler"></div></div>
+                </div>
+                <span class="icon-player full-screen"></span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="static/js/app.js"></script>
+</body>
+</html>
